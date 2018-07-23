@@ -22,8 +22,13 @@
     "webpack-dev-server": "^1.14.0"
   },
   "dependencies": {
+    "babel-eslint": "^8.2.6",
     "babel-preset-stage-1": "^6.1.18",
     "eslint-config-airbnb": "^17.0.0",
+    "eslint-plugin-babel": "^5.1.0",
+    "eslint-plugin-import": "^2.13.0",
+    "eslint-plugin-jsx-a11y": "^6.1.1",
+    "eslint-plugin-react-native": "^3.2.1",
     "lodash": "^3.10.1",
     "react": "16.3.2",
     "react-dom": "16.3.2",
