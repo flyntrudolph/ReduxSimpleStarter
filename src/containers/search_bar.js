@@ -28,7 +28,7 @@ onFormSubmit(event) {
         {/* if you have a callback, that references ".this", you probably
         need to bind it "(this.onInputChange.bind(this)" */}
         <span className="input-group-btn">
-          <button type ="submit" className="btn btn-secondary">Flynt Rudolph</button>
+          <button type ="submit" className="btn btn-secondary">FlyntRudolph</button>
         </span>
       </form>
     );
