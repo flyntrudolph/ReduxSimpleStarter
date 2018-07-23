@@ -13,4 +13,5 @@ export function fetchWeather(city) {
     type: FETCH_WEATHER,
     payload: request
   };
+  
 }
