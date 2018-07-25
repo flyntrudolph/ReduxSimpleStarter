@@ -6,8 +6,6 @@ class WeatherList extends Component {
 		return (
 			<table className="table table_hover">
 				<thead>
-
-					
 					<tr>
 						<th>City</th>
 						<th>Temperature</th>
@@ -15,8 +13,7 @@ class WeatherList extends Component {
 						<th>Humidity</th>
 					</tr>
 				</thead>
-				<tbody/>
-
+				<tbody />
 			</table>
 		);
 	}
