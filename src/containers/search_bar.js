@@ -30,10 +30,7 @@ class SearchBar extends Component {
 					placeholder="Get a five-day forecast in your favorite cities"
 					className="form-control"
 					value={this.state.term}
-					onChange={this.onInputChange}
-				/>
-				{/* if you have a callback, that references ".this", you probably
-        need to bind it "(this.onInputChange.bind(this)" */}
+					onChange={this.onInputChange} />
 				<span className="input-group-btn">
 					<button type="submit" className="btn btn-secondary">
 						FlyntRudolph
@@ -48,7 +45,4 @@ function mapDispatchToProps(dispatch) {
 	return bindActionCreators({ fetchWeather }, dispatch);
 }
 
-export default connect(
-	null,
-	mapDispatchToProps
-)(SearchBar);
+export default connect(null, mapDispatchToProps)(SearchBar);
