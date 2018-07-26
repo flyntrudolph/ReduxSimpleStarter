@@ -23,7 +23,7 @@ class WeatherList extends Component {
 					</tr>
 				</thead>
 				<tbody>
-					{this.props.map(this.renderWeather)}
+					{this.props.weather.map(this.renderWeather)}
 				</tbody>
 			</table>
 		);
